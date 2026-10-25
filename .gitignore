@@ -1,0 +1,29 @@
+# Local runtimes, caches, builds, and logs
+.python312/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.playwright-mcp/
+*.log
+firmware/**/build/
+tools/arduino-cli/
+*.exe
+*.zip
+*.bin
+
+# Private credentials and recorded participant data
+firmware/fsr_stream_ota/wifi_secrets.h
+sessions/
+models/
+reports/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.gif
+*.mp4
+*.mov
+*.avi
+*.heic
